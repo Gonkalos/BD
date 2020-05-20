@@ -1,0 +1,30 @@
+1)
+
+2)
+
+3)
+MATCH (m:Movie {title: "The Matrix"})<-[r:ACTED_IN]-(p:Person) return r.roles
+
+4)
+MATCH (m:Movie)<-[r:ACTED_IN]-(p:Person {name: "Tom Hanks"}) return m,r,p
+
+5)
+MATCH (m:Movie)<-[r:ACTED_IN]-(p:Person {name: "Tom Hanks"}) where m.released > 2000 return m,r,p
+
+6)
+match (p:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(p:Person) return p
+
+7)
+match (p:Person {name: "Keanu Reeves"})-[r:ACTED_IN]->(m:Movie) where "Neo" in r.roles return p,m
+
+8)
+match (actor:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(director:Person) return actor.name, collect (distinct(director.name))
+
+9)
+match (actor:Person)-[:ACTED_IN]->(m:Movie) with actor, count(m) as movie_count order by movie_count desc return actor.name, movie_count
+
+10)
+match (actor:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(director:Person) with actor, director, count(m) as movie_count order by movie_count desc return actor.name, director.name, movie_count
+
+11)
+match (actor:Person)-[:ACTED_IN]->(m:Movie) with actor, count(m) as movie_count order by movie_count desc limit 5 return actor.name, movie_count

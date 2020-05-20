@@ -1,0 +1,1534 @@
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(1), 
+        "idMedico" : NumberInt(1), 
+        "idAtleta" : NumberInt(1)
+    }, 
+    "idTeste_Clinico" : NumberInt(1), 
+    "Estado" : "A", 
+    "Preco" : 429.23, 
+    "Data_Inicio" : ISODate("2020-01-10T10:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(1), 
+    "idMedico" : NumberInt(1), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(1), 
+            "Nome" : "Fernando Fosforos", 
+            "Sexo" : "M", 
+            "Peso" : 70.2, 
+            "Altura" : 1.8, 
+            "Morada" : "Rua de Cima nº43", 
+            "Data_Nascimento" : ISODate("1990-08-22T23:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(1), 
+                    "Contacto" : "938475613", 
+                    "idAtleta" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_Atleta" : NumberInt(10), 
+                    "Contacto" : "fernando.90@gmail.com", 
+                    "idAtleta" : NumberInt(1)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(1), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(20), 
+                    "Anos_Pratica" : NumberInt(20), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(1), 
+                            "Designacao" : "Corrida Pistas Ovais-100m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(2), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(15), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(2), 
+                            "Designacao" : "Corrida Pistas Ovais-200m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(3), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(30), 
+                    "Anos_Pratica" : NumberInt(18), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(3), 
+                            "Designacao" : "Corrida Pistas Ovais-400m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(1), 
+            "Nome" : "Jose Maria", 
+            "Morada" : "Rua de Cima n.º 223, 5.º DTO", 
+            "Data_Nascimento" : ISODate("1970-01-22T23:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-02-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(1), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(1), 
+                    "Contacto" : "968765432", 
+                    "idMedico" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_medico" : NumberInt(8), 
+                    "Contacto" : "253002134", 
+                    "idMedico" : NumberInt(1)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(1), 
+                    "Designacao" : "Clinica Geral"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(2), 
+        "idMedico" : NumberInt(2), 
+        "idAtleta" : NumberInt(2)
+    }, 
+    "idTeste_Clinico" : NumberInt(2), 
+    "Estado" : "A", 
+    "Preco" : 200.33, 
+    "Data_Inicio" : ISODate("2020-01-05T11:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(2), 
+    "idMedico" : NumberInt(2), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(2), 
+            "Nome" : "Adelina Correia", 
+            "Sexo" : "F", 
+            "Peso" : 60.35, 
+            "Altura" : 1.6, 
+            "Morada" : "Rua de Baixo n.º 132, 5.º DTO", 
+            "Data_Nascimento" : ISODate("2001-04-04T23:00:00.000+0000"), 
+            "idClube" : NumberInt(2), 
+            "idCategoria" : NumberInt(5), 
+            "Codigo_Postal" : "4700-002", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(2), 
+                    "Contacto" : "967364901", 
+                    "idAtleta" : NumberInt(2)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(5), 
+                    "Designacao" : "Júnior"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(4), 
+                    "idAtleta" : NumberInt(2), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(10), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(4), 
+                            "Designacao" : "Corrida Meio Fundo-800m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(5), 
+                    "idAtleta" : NumberInt(2), 
+                    "Horas_Treino_Semanal" : NumberInt(22), 
+                    "Anos_Pratica" : NumberInt(9), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(5), 
+                            "Designacao" : "Corrida Meio Fundo-1500m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(6), 
+                    "idAtleta" : NumberInt(2), 
+                    "Horas_Treino_Semanal" : NumberInt(17), 
+                    "Anos_Pratica" : NumberInt(12), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(6), 
+                            "Designacao" : "Corrida Meio Fundo-3000m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-002", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(2), 
+                    "Nome" : "Clube Salta Alto", 
+                    "Morada" : "Rua de Este n.º 4", 
+                    "Data_Fundacao" : ISODate("1998-02-12T00:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-004", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-004", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(2), 
+                            "Contacto" : "253006574", 
+                            "idClube" : NumberInt(2)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(2), 
+            "Nome" : "Antonio Pinto", 
+            "Morada" : "Rua de Baixo n.º 125, 2.º ESQ", 
+            "Data_Nascimento" : ISODate("1991-11-21T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("2013-01-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(2), 
+            "Codigo_Postal" : "4700-002", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(2), 
+                    "Contacto" : "914536741", 
+                    "idMedico" : NumberInt(2)
+                }, 
+                {
+                    "idContacto_medico" : NumberInt(9), 
+                    "Contacto" : "antonio91@gmail.com", 
+                    "idMedico" : NumberInt(2)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(2), 
+                    "Designacao" : "Cardiologia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-002", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(3), 
+        "idMedico" : NumberInt(3), 
+        "idAtleta" : NumberInt(3)
+    }, 
+    "idTeste_Clinico" : NumberInt(3), 
+    "Estado" : "R", 
+    "Preco" : 345.5, 
+    "Data_Inicio" : ISODate("2019-12-28T10:00:00.000+0000"), 
+    "Data_Fim" : ISODate("2019-12-28T10:30:00.000+0000"), 
+    "idAtleta" : NumberInt(3), 
+    "idMedico" : NumberInt(3), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(3), 
+            "Nome" : "Pedro Cerdeira", 
+            "Sexo" : "M", 
+            "Peso" : 40.5, 
+            "Altura" : 1.5, 
+            "Morada" : "Rua de Sul n.º 34", 
+            "Data_Nascimento" : ISODate("2010-08-08T23:00:00.000+0000"), 
+            "idClube" : NumberInt(3), 
+            "idCategoria" : NumberInt(1), 
+            "Codigo_Postal" : "4700-003", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(3), 
+                    "Contacto" : "912746040", 
+                    "idAtleta" : NumberInt(3)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(1), 
+                    "Designacao" : "Pré-Competição"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(7), 
+                    "idAtleta" : NumberInt(3), 
+                    "Horas_Treino_Semanal" : NumberInt(8), 
+                    "Anos_Pratica" : NumberInt(5), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(7), 
+                            "Designacao" : "Corrida Obstáculos-100m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(8), 
+                    "idAtleta" : NumberInt(3), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(4), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(8), 
+                            "Designacao" : "Corrida Obstáculos-200m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(9), 
+                    "idAtleta" : NumberInt(3), 
+                    "Horas_Treino_Semanal" : NumberInt(12), 
+                    "Anos_Pratica" : NumberInt(2), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(9), 
+                            "Designacao" : "Corrida Obstáculos-400m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-003", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(3), 
+                    "Nome" : "Clube Corre Bem", 
+                    "Morada" : "Rua da Beira n.º 32", 
+                    "Data_Fundacao" : ISODate("2000-03-05T00:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-006", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-006", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(3), 
+                            "Contacto" : "253001278", 
+                            "idClube" : NumberInt(3)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(3), 
+            "Nome" : "Manuel Maria Neves", 
+            "Morada" : "Rua de Sul n.º 789, 9.º DTO", 
+            "Data_Nascimento" : ISODate("1964-03-24T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1989-07-22T23:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(3), 
+            "Codigo_Postal" : "4700-003", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(3), 
+                    "Contacto" : "939645381", 
+                    "idMedico" : NumberInt(3)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(3), 
+                    "Designacao" : "Fisioterapia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-003", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(4), 
+        "idMedico" : NumberInt(4), 
+        "idAtleta" : NumberInt(4)
+    }, 
+    "idTeste_Clinico" : NumberInt(4), 
+    "Estado" : "R", 
+    "Preco" : 123.23, 
+    "Data_Inicio" : ISODate("2019-12-06T14:00:00.000+0000"), 
+    "Data_Fim" : ISODate("2019-12-06T14:30:00.000+0000"), 
+    "idAtleta" : NumberInt(4), 
+    "idMedico" : NumberInt(4), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(4), 
+            "Nome" : "Gestrudes Vieira", 
+            "Sexo" : "F", 
+            "Peso" : 60.27, 
+            "Altura" : 1.6, 
+            "Morada" : "Rua de Este n.º 6, 14.º ESQ", 
+            "Data_Nascimento" : ISODate("2005-12-01T00:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(3), 
+            "Codigo_Postal" : "4700-004", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(4), 
+                    "Contacto" : "910000456", 
+                    "idAtleta" : NumberInt(4)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(3), 
+                    "Designacao" : "Infantil"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(12), 
+                    "idAtleta" : NumberInt(4), 
+                    "Horas_Treino_Semanal" : NumberInt(24), 
+                    "Anos_Pratica" : NumberInt(10), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(12), 
+                            "Designacao" : "Lançamento Peso-4Kg"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(14), 
+                    "idAtleta" : NumberInt(4), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(7), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(14), 
+                            "Designacao" : "Lançamento Disco-1Kg"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(16), 
+                    "idAtleta" : NumberInt(4), 
+                    "Horas_Treino_Semanal" : NumberInt(19), 
+                    "Anos_Pratica" : NumberInt(4), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(16), 
+                            "Designacao" : "Lançamento Dardo-600g"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-004", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(4), 
+            "Nome" : "Pedro Pinto Silva", 
+            "Morada" : "Rua de Este n.º 456, 1.º DTO", 
+            "Data_Nascimento" : ISODate("1978-02-13T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-01-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(4), 
+            "Codigo_Postal" : "4700-004", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(4), 
+                    "Contacto" : "969126483", 
+                    "idMedico" : NumberInt(4)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(4), 
+                    "Designacao" : "Pneumologia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-004", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(5), 
+        "idMedico" : NumberInt(5), 
+        "idAtleta" : NumberInt(5)
+    }, 
+    "idTeste_Clinico" : NumberInt(5), 
+    "Estado" : "A", 
+    "Preco" : 543.6, 
+    "Data_Inicio" : ISODate("2020-01-30T10:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(5), 
+    "idMedico" : NumberInt(5), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(5), 
+            "Nome" : "Alexandre Silva", 
+            "Sexo" : "M", 
+            "Peso" : 65.33, 
+            "Altura" : 1.69, 
+            "Morada" : "Rua do Eixo n.º 3", 
+            "Data_Nascimento" : ISODate("2007-01-23T00:00:00.000+0000"), 
+            "idClube" : NumberInt(3), 
+            "idCategoria" : NumberInt(2), 
+            "Codigo_Postal" : "4700-005", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(5), 
+                    "Contacto" : "961115543", 
+                    "idAtleta" : NumberInt(5)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(2), 
+                    "Designacao" : "Cadete"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(10), 
+                    "idAtleta" : NumberInt(5), 
+                    "Horas_Treino_Semanal" : NumberInt(24), 
+                    "Anos_Pratica" : NumberInt(2), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(10), 
+                            "Designacao" : "Maratona"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-005", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(3), 
+                    "Nome" : "Clube Corre Bem", 
+                    "Morada" : "Rua da Beira n.º 32", 
+                    "Data_Fundacao" : ISODate("2000-03-05T00:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-006", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-006", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(3), 
+                            "Contacto" : "253001278", 
+                            "idClube" : NumberInt(3)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(5), 
+            "Nome" : "Marta Catarina", 
+            "Morada" : "Rua do Eixo n.º 120, 3.º ESQ", 
+            "Data_Nascimento" : ISODate("1960-09-10T23:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1981-05-22T23:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(5), 
+            "Codigo_Postal" : "4700-005", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(5), 
+                    "Contacto" : "931234567", 
+                    "idMedico" : NumberInt(5)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(5), 
+                    "Designacao" : "Oftalmologia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-005", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(6), 
+        "idMedico" : NumberInt(6), 
+        "idAtleta" : NumberInt(6)
+    }, 
+    "idTeste_Clinico" : NumberInt(6), 
+    "Estado" : "R", 
+    "Preco" : 1050.3, 
+    "Data_Inicio" : ISODate("2019-12-30T09:00:00.000+0000"), 
+    "Data_Fim" : ISODate("2019-12-30T09:30:00.000+0000"), 
+    "idAtleta" : NumberInt(6), 
+    "idMedico" : NumberInt(6), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(6), 
+            "Nome" : "Eduardo Fernandes", 
+            "Sexo" : "M", 
+            "Peso" : 77.2, 
+            "Altura" : 1.77, 
+            "Morada" : "Rua da Beira n.º 312, 3.º DTO", 
+            "Data_Nascimento" : ISODate("2003-05-05T23:00:00.000+0000"), 
+            "idClube" : NumberInt(2), 
+            "idCategoria" : NumberInt(4), 
+            "Codigo_Postal" : "4700-006", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(6), 
+                    "Contacto" : "918883400", 
+                    "idAtleta" : NumberInt(6)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(4), 
+                    "Designacao" : "Juvenil"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(11), 
+                    "idAtleta" : NumberInt(6), 
+                    "Horas_Treino_Semanal" : NumberInt(20), 
+                    "Anos_Pratica" : NumberInt(5), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(11), 
+                            "Designacao" : "Lançamento Peso-7,26Kg"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(13), 
+                    "idAtleta" : NumberInt(6), 
+                    "Horas_Treino_Semanal" : NumberInt(9), 
+                    "Anos_Pratica" : NumberInt(3), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(13), 
+                            "Designacao" : "Lançamento Disco-2Kg"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(15), 
+                    "idAtleta" : NumberInt(6), 
+                    "Horas_Treino_Semanal" : NumberInt(28), 
+                    "Anos_Pratica" : NumberInt(5), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(15), 
+                            "Designacao" : "Lançamento Dardo-800g"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-006", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(2), 
+                    "Nome" : "Clube Salta Alto", 
+                    "Morada" : "Rua de Este n.º 4", 
+                    "Data_Fundacao" : ISODate("1998-02-12T00:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-004", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-004", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(2), 
+                            "Contacto" : "253006574", 
+                            "idClube" : NumberInt(2)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(6), 
+            "Nome" : "Alberto Trovoadas", 
+            "Morada" : "Rua da Beira n.º 312, 3.º DTO", 
+            "Data_Nascimento" : ISODate("1984-01-12T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("2000-07-22T23:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(6), 
+            "Codigo_Postal" : "4700-006", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(6), 
+                    "Contacto" : "937563819", 
+                    "idMedico" : NumberInt(6)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(6), 
+                    "Designacao" : "Psiquiatria"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-006", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(7), 
+        "idMedico" : NumberInt(7), 
+        "idAtleta" : NumberInt(7)
+    }, 
+    "idTeste_Clinico" : NumberInt(7), 
+    "Estado" : "A", 
+    "Preco" : 299.99, 
+    "Data_Inicio" : ISODate("2020-01-23T16:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(7), 
+    "idMedico" : NumberInt(7), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(7), 
+            "Nome" : "Andre Costa", 
+            "Sexo" : "M", 
+            "Peso" : 100.2, 
+            "Altura" : 2.1, 
+            "Morada" : "Rua da Ponta n.º 212, 4.º DTO", 
+            "Data_Nascimento" : ISODate("1980-02-02T00:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-007", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(7), 
+                    "Contacto" : "967722901", 
+                    "idAtleta" : NumberInt(7)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(18), 
+                    "idAtleta" : NumberInt(7), 
+                    "Horas_Treino_Semanal" : NumberInt(30), 
+                    "Anos_Pratica" : NumberInt(20), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(18), 
+                            "Designacao" : "Salto com Vara"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-007", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(7), 
+            "Nome" : "Candido Faisca", 
+            "Morada" : "Rua da Ponta n.º 21, 2.º DTO", 
+            "Data_Nascimento" : ISODate("1964-11-24T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1989-03-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(7), 
+            "Codigo_Postal" : "4700-007", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(7), 
+                    "Contacto" : "919235462", 
+                    "idMedico" : NumberInt(7)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(7), 
+                    "Designacao" : "Ortopedia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-007", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(8), 
+        "idMedico" : NumberInt(1), 
+        "idAtleta" : NumberInt(8)
+    }, 
+    "idTeste_Clinico" : NumberInt(8), 
+    "Estado" : "R", 
+    "Preco" : 400.33, 
+    "Data_Inicio" : ISODate("2020-01-07T15:00:00.000+0000"), 
+    "Data_Fim" : ISODate("2020-01-04T15:07:30.000+0000"), 
+    "idAtleta" : NumberInt(8), 
+    "idMedico" : NumberInt(1), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(8), 
+            "Nome" : "Antonio Trovao", 
+            "Sexo" : "M", 
+            "Peso" : 72.23, 
+            "Altura" : 1.84, 
+            "Morada" : "Rua de Este n.º 67", 
+            "Data_Nascimento" : ISODate("1999-11-23T00:00:00.000+0000"), 
+            "idClube" : NumberInt(2), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-004", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(8), 
+                    "Contacto" : "948300199", 
+                    "idAtleta" : NumberInt(8)
+                }, 
+                {
+                    "idContacto_Atleta" : NumberInt(9), 
+                    "Contacto" : "253009845", 
+                    "idAtleta" : NumberInt(8)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(17), 
+                    "idAtleta" : NumberInt(8), 
+                    "Horas_Treino_Semanal" : NumberInt(23), 
+                    "Anos_Pratica" : NumberInt(10), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(17), 
+                            "Designacao" : "Salto em Altura"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(19), 
+                    "idAtleta" : NumberInt(8), 
+                    "Horas_Treino_Semanal" : NumberInt(15), 
+                    "Anos_Pratica" : NumberInt(15), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(19), 
+                            "Designacao" : "Salto em Comprimento"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(20), 
+                    "idAtleta" : NumberInt(8), 
+                    "Horas_Treino_Semanal" : NumberInt(25), 
+                    "Anos_Pratica" : NumberInt(17), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(20), 
+                            "Designacao" : "Triplo Salto"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-004", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(2), 
+                    "Nome" : "Clube Salta Alto", 
+                    "Morada" : "Rua de Este n.º 4", 
+                    "Data_Fundacao" : ISODate("1998-02-12T00:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-004", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-004", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(2), 
+                            "Contacto" : "253006574", 
+                            "idClube" : NumberInt(2)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(1), 
+            "Nome" : "Jose Maria", 
+            "Morada" : "Rua de Cima n.º 223, 5.º DTO", 
+            "Data_Nascimento" : ISODate("1970-01-22T23:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-02-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(1), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(1), 
+                    "Contacto" : "968765432", 
+                    "idMedico" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_medico" : NumberInt(8), 
+                    "Contacto" : "253002134", 
+                    "idMedico" : NumberInt(1)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(1), 
+                    "Designacao" : "Clinica Geral"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(9), 
+        "idMedico" : NumberInt(4), 
+        "idAtleta" : NumberInt(1)
+    }, 
+    "idTeste_Clinico" : NumberInt(9), 
+    "Estado" : "R", 
+    "Preco" : 150.4, 
+    "Data_Inicio" : ISODate("2019-11-30T10:00:00.000+0000"), 
+    "Data_Fim" : ISODate("2019-11-30T10:30:00.000+0000"), 
+    "idAtleta" : NumberInt(1), 
+    "idMedico" : NumberInt(4), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(1), 
+            "Nome" : "Fernando Fosforos", 
+            "Sexo" : "M", 
+            "Peso" : 70.2, 
+            "Altura" : 1.8, 
+            "Morada" : "Rua de Cima nº43", 
+            "Data_Nascimento" : ISODate("1990-08-22T23:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(1), 
+                    "Contacto" : "938475613", 
+                    "idAtleta" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_Atleta" : NumberInt(10), 
+                    "Contacto" : "fernando.90@gmail.com", 
+                    "idAtleta" : NumberInt(1)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(1), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(20), 
+                    "Anos_Pratica" : NumberInt(20), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(1), 
+                            "Designacao" : "Corrida Pistas Ovais-100m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(2), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(15), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(2), 
+                            "Designacao" : "Corrida Pistas Ovais-200m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(3), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(30), 
+                    "Anos_Pratica" : NumberInt(18), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(3), 
+                            "Designacao" : "Corrida Pistas Ovais-400m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(4), 
+            "Nome" : "Pedro Pinto Silva", 
+            "Morada" : "Rua de Este n.º 456, 1.º DTO", 
+            "Data_Nascimento" : ISODate("1978-02-13T00:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-01-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(4), 
+            "Codigo_Postal" : "4700-004", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(4), 
+                    "Contacto" : "969126483", 
+                    "idMedico" : NumberInt(4)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(4), 
+                    "Designacao" : "Pneumologia"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-004", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(10), 
+        "idMedico" : NumberInt(1), 
+        "idAtleta" : NumberInt(1)
+    }, 
+    "idTeste_Clinico" : NumberInt(10), 
+    "Estado" : "A", 
+    "Preco" : 123.45, 
+    "Data_Inicio" : ISODate("2020-04-21T00:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(1), 
+    "idMedico" : NumberInt(1), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(1), 
+            "Nome" : "Fernando Fosforos", 
+            "Sexo" : "M", 
+            "Peso" : 70.2, 
+            "Altura" : 1.8, 
+            "Morada" : "Rua de Cima nº43", 
+            "Data_Nascimento" : ISODate("1990-08-22T23:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(1), 
+                    "Contacto" : "938475613", 
+                    "idAtleta" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_Atleta" : NumberInt(10), 
+                    "Contacto" : "fernando.90@gmail.com", 
+                    "idAtleta" : NumberInt(1)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(1), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(20), 
+                    "Anos_Pratica" : NumberInt(20), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(1), 
+                            "Designacao" : "Corrida Pistas Ovais-100m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(2), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(15), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(2), 
+                            "Designacao" : "Corrida Pistas Ovais-200m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(3), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(30), 
+                    "Anos_Pratica" : NumberInt(18), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(3), 
+                            "Designacao" : "Corrida Pistas Ovais-400m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(1), 
+            "Nome" : "Jose Maria", 
+            "Morada" : "Rua de Cima n.º 223, 5.º DTO", 
+            "Data_Nascimento" : ISODate("1970-01-22T23:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-02-23T00:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(1), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(1), 
+                    "Contacto" : "968765432", 
+                    "idMedico" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_medico" : NumberInt(8), 
+                    "Contacto" : "253002134", 
+                    "idMedico" : NumberInt(1)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(1), 
+                    "Designacao" : "Clinica Geral"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : {
+        "idTeste_Clinico" : NumberInt(11), 
+        "idMedico" : NumberInt(8), 
+        "idAtleta" : NumberInt(1)
+    }, 
+    "idTeste_Clinico" : NumberInt(11), 
+    "Estado" : "A", 
+    "Preco" : 123.45, 
+    "Data_Inicio" : ISODate("2020-04-21T00:00:00.000+0000"), 
+    "Data_Fim" : null, 
+    "idAtleta" : NumberInt(1), 
+    "idMedico" : NumberInt(8), 
+    "Atleta" : [
+        {
+            "idAtleta" : NumberInt(1), 
+            "Nome" : "Fernando Fosforos", 
+            "Sexo" : "M", 
+            "Peso" : 70.2, 
+            "Altura" : 1.8, 
+            "Morada" : "Rua de Cima nº43", 
+            "Data_Nascimento" : ISODate("1990-08-22T23:00:00.000+0000"), 
+            "idClube" : NumberInt(1), 
+            "idCategoria" : NumberInt(6), 
+            "Codigo_Postal" : "4700-001", 
+            "Contacto_Atleta" : [
+                {
+                    "idContacto_Atleta" : NumberInt(1), 
+                    "Contacto" : "938475613", 
+                    "idAtleta" : NumberInt(1)
+                }, 
+                {
+                    "idContacto_Atleta" : NumberInt(10), 
+                    "Contacto" : "fernando.90@gmail.com", 
+                    "idAtleta" : NumberInt(1)
+                }
+            ], 
+            "Categoria" : [
+                {
+                    "idCategoria" : NumberInt(6), 
+                    "Designacao" : "Master"
+                }
+            ], 
+            "Modalidade_Atleta" : [
+                {
+                    "idModalidade" : NumberInt(1), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(20), 
+                    "Anos_Pratica" : NumberInt(20), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(1), 
+                            "Designacao" : "Corrida Pistas Ovais-100m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(2), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(10), 
+                    "Anos_Pratica" : NumberInt(15), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(2), 
+                            "Designacao" : "Corrida Pistas Ovais-200m"
+                        }
+                    ]
+                }, 
+                {
+                    "idModalidade" : NumberInt(3), 
+                    "idAtleta" : NumberInt(1), 
+                    "Horas_Treino_Semanal" : NumberInt(30), 
+                    "Anos_Pratica" : NumberInt(18), 
+                    "Modalidade" : [
+                        {
+                            "idModalidade" : NumberInt(3), 
+                            "Designacao" : "Corrida Pistas Ovais-400m"
+                        }
+                    ]
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4700-001", 
+                    "Localidade" : "Braga"
+                }
+            ], 
+            "Clube" : [
+                {
+                    "idClube" : NumberInt(1), 
+                    "Nome" : "Clube de Atletismo de Braga", 
+                    "Morada" : "Rua de Cima n.º 53", 
+                    "Data_Fundacao" : ISODate("1970-05-22T23:00:00.000+0000"), 
+                    "Codigo_Postal" : "4700-001", 
+                    "Codigo_Postal_Local" : [
+                        {
+                            "Codigo_Postal" : "4700-001", 
+                            "Localidade" : "Braga"
+                        }
+                    ], 
+                    "Contacto_Clube" : [
+                        {
+                            "idContacto_Clube" : NumberInt(1), 
+                            "Contacto" : "253009856", 
+                            "idClube" : NumberInt(1)
+                        }, 
+                        {
+                            "idContacto_Clube" : NumberInt(4), 
+                            "Contacto" : "atletismo.braga@gmail.com", 
+                            "idClube" : NumberInt(1)
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "Medico" : [
+        {
+            "idMedico" : NumberInt(8), 
+            "Nome" : "Berto Menezes", 
+            "Morada" : "Rua do Chão nº3", 
+            "Data_Nascimento" : ISODate("1970-05-20T23:00:00.000+0000"), 
+            "Data_Inicio_Servico" : ISODate("1990-05-12T23:00:00.000+0000"), 
+            "idEspecialidade" : NumberInt(1), 
+            "Codigo_Postal" : "4720-601", 
+            "Contacto_medico" : [
+                {
+                    "idContacto_medico" : NumberInt(10), 
+                    "Contacto" : "253990011", 
+                    "idMedico" : NumberInt(8)
+                }
+            ], 
+            "Especialidade" : [
+                {
+                    "idEspecialidade" : NumberInt(1), 
+                    "Designacao" : "Clinica Geral"
+                }
+            ], 
+            "Codigo_Postal_Local" : [
+                {
+                    "Codigo_Postal" : "4720-601", 
+                    "Localidade" : "Amares"
+                }
+            ]
+        }
+    ]
+}
